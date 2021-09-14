@@ -9,7 +9,7 @@ function generateQueryParams(setting) {
 
 class YTAPI {
     static API_URL = 'https://www.googleapis.com/youtube/v3/';
-    static API_KEY = 'AIzaSyDdIuxIhjH9h39S3bcqtRsHR3NdAU6y4J4';//'AIzaSyC7Vgokbg3RXEbPZYzUQfFzSCpOBVEMiGc';
+    static API_KEY = 'YOUR_API_KEY';
 
     static query = (searchText, pageToken = null) => {
         const setting = {
